@@ -61,6 +61,7 @@ body {
     grid-template-rows: min-content 1fr;
 
     overflow-x: hidden;
+    zoom: 85%;
 }
 
 /* make images easier to work with */
@@ -381,7 +382,7 @@ hr{
         right: 1rem;
         top: 2rem;
         background: transparent;
-        background-image: url(images/icon-hamburger.svg);
+        background-image: url(icon-hamburger.svg);
         background-repeat: no-repeat;
         background-position: center;
         width: 1.5rem;
@@ -390,7 +391,7 @@ hr{
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(images/icon-close.svg);
+        background-image: url(icon-close.svg);
     }
 
     .mobile-nav-toggle:focus-visible {
